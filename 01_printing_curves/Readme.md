@@ -1,11 +1,28 @@
-# Printing Curves
+## Lesson 1: Understanding Curves in 3D Printing
 
-We are dealing with the same Object here, once with the Curve in the Z-plane and once in the X-plane.
+In this lesson, we explore the impact of printing curves in different planes using the same object.
 
-The Object with the Curve in the Z-plane will have a much smoother curve, since the curve is printed with  the X/Y Mmovements, 
-while the other one relays on layer lines to create the curve.
+### Objective:
 
-Try it yourself, print with default settings.
-should take about 10-15 minutes, and 2g of filament.
+- Understand how the orientation of a curve in the Z-plane and X-plane affects print quality.
 
-Now compare the surfaces finnish of the curves on both objects.
+### Testing:
+
+- Execute the print with default settings. (Use model.stl in this folder)
+  - Filament usage: Approximately 2g.
+  - Estimated print times:
+    - Creality Ender 3 Neo V2 - Prusa Slicer - Normal Speed: ~30 min
+    - Prusa MK4 - Prusa Slicer - Structural: ~15 min
+
+### Observation:
+
+1. Assess and compare the surface finish of curves on both objects.
+2. **Printing in the Z-plane:**
+
+   - Results in a smoother curve.
+   - Utilizes X/Y movements to create the curve.
+
+3. **Printing in the X-plane:**
+   - Relies on layer lines to form the curve.
+
+**Note:** Understanding the impact of plane orientation on curve printing
