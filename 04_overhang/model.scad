@@ -7,7 +7,7 @@ module model(){
     }
 
 }
-#model();
+model();
 
 translate([0,45,0])rotate([90,0,0])model();
 translate([0,75,15])rotate([180,0,0])model();
